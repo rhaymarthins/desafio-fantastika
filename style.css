@@ -9,9 +9,9 @@ header{
     height: 13vh;
     background-color: #252525;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 0px 50px 0px 50px; */
+    padding: 0px 50px 0px 50px;
 }
 
 .logoHeader{
@@ -256,6 +256,19 @@ footer h3{
 /* Medidas Respondivas */
 
 @media(max-width:500px){
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 0px 70px;
+    }
+
+    .sociais {
+        justify-content: center;
+        align-items: center;
+        width: 8vw;
+        /* border:2px solid white; */
+    }
+
     .mobileSociais{
         display: none;
     }
@@ -266,7 +279,9 @@ footer h3{
     }
 
     .primeiraSection h1{
+        width: 90vw;
         font-size: 30px;
+        /* border: 1px solid tomato; */
     }
 
     .segundaSection{
@@ -285,7 +300,7 @@ footer h3{
 
     .segundaSection h3{
         white-space: normal;
-        width: 65vw;
+        width: 70vw;
         font-size: 18px;
         padding: 15px 0px 25px;
         line-height: 20px;
@@ -302,12 +317,13 @@ footer h3{
         height: 90vh;
         justify-content: flex-start;
         align-items: flex-start;
+        padding: 80px 30px 80px 30px;
     }
 
     .terceiraSection h1{
         white-space: normal;
-        font-size: 22px;
-        width: 65vw;
+        font-size: 24px;
+        width: 70vw;
         /* border: 1px solid tomato; */
     }
 
@@ -315,7 +331,7 @@ footer h3{
         white-space: normal;
         font-size: 18px;
         line-height: 20px;
-        width: 60vw;
+        width: 70vw;
         /* border: 1px solid tomato; */
     }
     
@@ -349,10 +365,6 @@ footer h3{
         height: 100vh;
         padding: 0px;
     }
-
-    /* .navFooter{
-        display: block;
-    } */
 
     .navInfoFooter{
         width: 60vw;
